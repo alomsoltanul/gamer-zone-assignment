@@ -182,7 +182,10 @@ header{
     align-items: right;
 
 }
-
+.follow-img{
+    height: 15px;
+    margin-left: 5px;
+}
 /* Gamer Introduction */
 .gamer-introduction{
     display: flex;
@@ -284,6 +287,12 @@ header{
 .video-boxes .each-box{
     margin: 40px 0px;
     width: 100%;
+}
+.video-boxes .each-box:hover{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+
 }
 .video-boxes .each-box img{
     width: auto;
@@ -491,12 +500,12 @@ header{
 /* footer */
 .footer{
     background: #0B0223;
-    
+    padding: 100px 0;
 }
 .footer-contents{
     max-width: 1440px;
     margin: 0 auto;
-    padding: 100px 0;
+    
     text-align: center;
 }
 .footer-logo{
@@ -514,4 +523,266 @@ header{
 }
 .footer-logo h2 .ft-logo_G{
     color: #FF42A5;
+}
+.footer-menus{
+
+}
+.footer-menus > ul{
+    display: flex;
+    justify-content: center;
+}
+.footer-menus > ul li{
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.footer-menus > ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+
+}
+.footer-menus > ul li a:hover{
+    color: #FF42A5;
+}
+/* ICONS */
+.footer-icons > ul{
+    display: flex;
+    justify-content: center;
+}
+.footer-icons > ul li{
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.footer-icons > ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 36px;
+
+}
+.footer-icons > ul li a:hover{
+    color: #FF42A5;
+
+}
+
+/* footer terms */
+.footer-terms{
+    text-align: center;
+    margin-top: 35px;
+}
+.footer-terms > ul{
+    display: flex;
+    justify-content: center;
+
+}
+.footer-terms > ul li{
+    list-style: none;
+}
+.footer-terms > ul > li a{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    text-decoration: none;
+    margin-right: 25px;
+}
+.footer-terms > ul > li a:hover{
+    color: #fff;
+}
+.footer .copy-r{
+    text-align: center;
+    font-size:16px;
+    font-style: normal;
+    font-weight: 200;
+    color: rgba(255, 255, 255, 0.60);
+    margin-top: 15px;
+}
+
+/* responsive */
+/* for mobile */
+@media screen and (max-width:576px) {
+    .navbar-menu{
+        flex-direction: column;
+    }
+    .navbar-logo{
+        justify-content: center;
+        gap: 10px;
+    }
+    .nav-items{
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .banner-contents{
+        width: 100%;
+    }
+    .banner-contents h3{
+        font-size: 46px;
+    }
+    .gamer-introduction{
+        flex-direction: column;
+        align-items: center;
+    }
+    .gamer-contents-img img{
+        width: 100%;
+    }
+    .video-boxes{
+        flex-direction: column;
+        text-align: center;
+    }
+    .video-boxes .each-box p{
+        width: 250px;
+        margin: 0 auto;
+    }
+    .advertise-box{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .advertise-contents{
+        
+    }
+    .advertise-contents .ac-title{
+    
+       
+    }
+    .advertise-img{
+        height: 250px;
+        margin-bottom: 150px;
+    }
+    .op-advertise-img{
+        height: 250px;
+        margin-bottom: 150px;
+    }
+    .op-ad-box{
+        flex-direction: column-reverse;
+    }
+    .careers-container{
+        flex-direction: column;
+        
+    }
+    .careers-contents{
+        width: 50%;
+        box-sizing: border-box;
+    }
+    .career-image img{
+        height: 300px;
+    }
+    .icon-box-bundle{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon-box h6{
+        text-align: left;
+    }
+    .footer-menus >ul{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-icons > ul{
+        flex-direction: row;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* TABLATES */
+@media screen and (min-width:576px)  and (max-width:992px){
+    .navbar-menu{
+        flex-direction: column;
+    }
+    .navbar-logo{
+        justify-content: center;
+        gap: 10px;
+    }
+    .nav-items{
+        flex-direction: column;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .banner-contents{
+        width: 100%;
+    }
+    .banner-contents h3{
+        font-size: 46px;
+    }
+    .gamer-introduction{
+        flex-direction: column;
+        align-items: center;
+    }
+    .gamer-contents-img img{
+        width: 100%;
+    }
+    .video-boxes{
+        flex-direction: column;
+        text-align: center;
+    }
+    .video-boxes .each-box p{
+        width: 250px;
+        margin: 0 auto;
+    }
+    .advertise-box{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .advertise-contents{
+        
+    }
+    .advertise-contents .ac-title{
+    
+       
+    }
+    .advertise-img{
+        height: 250px;
+        margin-bottom: 150px;
+    }
+    .op-advertise-img{
+        height: 250px;
+        margin-bottom: 150px;
+    }
+    .op-ad-box{
+        flex-direction: column-reverse;
+    }
+    .careers-container{
+        flex-direction: column;
+        
+    }
+    .careers-contents{
+        width: 50%;
+        box-sizing: border-box;
+    }
+    .career-image img{
+        height: 300px;
+    }
+    .icon-box-bundle{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .icon-box h6{
+        text-align: left;
+    }
+    .footer-menus >ul{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-icons > ul{
+        flex-direction: row;
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
 }
