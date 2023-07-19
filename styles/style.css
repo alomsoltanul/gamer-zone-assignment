@@ -374,3 +374,144 @@ header{
     height: 180px;
     border: 3px solid #fff;
 }
+
+/* Careers css */
+.careers{
+     background: url("../images/Group\ 14.png"),#FF42A5 ;
+     background-position: left;
+     background-repeat: no-repeat;
+    padding: 120px 0;
+
+}
+.careers-container{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.careers-container .careers-contents{}
+.careers-container .careers-contents .careers-title{
+    color: #FFF;
+    width: 450px;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 125% */
+    margin-bottom: 25px;
+}
+.careers-container .careers-contents .careers-paragraph{
+    color: #FFF;
+    width: 680px;;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 166.667% */
+}
+
+.careers-container .careers-contents .careers-links{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+.careers-container .careers-contents .careers-links h6{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px; /* 200% */
+    
+}
+.careers-container .careers-contents .careers-links a{
+    text-decoration: none;
+    color: #fff;
+}
+.careers-container .careers-contents .position-btn{
+    padding: 30px 0;
+}
+.position-btn a{
+    text-decoration: none;
+    color: #FF42A5;
+    background-color: #FFF;
+    border-radius: 36px;
+    font-size: 20px;
+    padding: 16px 36px;
+    border: 2px solid #fff;
+}
+.position-btn a:hover{
+    text-decoration: none;
+    background-color: #FF42A5;
+    color: #FFF;
+    border-radius: 36px;
+    font-size: 20px;
+    padding: 16px 36px;
+    border: 2px solid #fff;
+}
+.career-image{
+    align-items:  left;
+}
+/* ICON CARDS */
+.icon-mega{
+    max-width:1440px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+.icon-box-bundle{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+.icon-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #fff;
+    padding: 8px 12px;
+    border-radius: 60px;
+    
+}
+.icon-box:hover{
+    border: 1px solid #FF42A5;
+    padding: 8px 12px;
+    border-radius: 60px;
+    color: #FF42A5;
+}
+.icon-box h6{
+    color: #0B0223;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    
+}
+.part-two{
+    margin-top: 35px;
+    padding-bottom: 80px;
+}
+/* footer */
+.footer{
+    background: #0B0223;
+    
+}
+.footer-contents{
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
+}
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+.footer-logo .footer-img{
+    
+}
+.footer-logo .ft-ti{
+    color: #fff;
+    font-size: 40px;
+}
+.footer-logo h2 .ft-logo_G{
+    color: #FF42A5;
+}
